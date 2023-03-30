@@ -3,7 +3,7 @@
 Welcome to the repo! This project aims to develop an efficient and compact speech emotion recognition model suitable for TinyML applications. The repo consists of two parts:
 
 1. Develop and convert the LSTM model in TensorFlow to the TensorFlow “Lite” model. ([01_Notebook](https://github.com/Hannibal0420/Speech-Emotion-Recognition-TinyML/blob/main/01_TFLite_Model_Preparation.ipynb))
-2. Make inferences on the TensorFlow Lite model with a [Arduino Nano 33 BLE Sense](https://docs.arduino.cc/hardware/nano-33-ble-sense) microcontroller. ([02_Notebook](https://github.com/Hannibal0420/Speech-Emotion-Recognition-TinyML/blob/main/02_Arduino_Nano_Inference.ipynb))
+2. Make inferences on the TensorFlow Lite model with an [Arduino Nano 33 BLE Sense](https://docs.arduino.cc/hardware/nano-33-ble-sense). ([02_Notebook](https://github.com/Hannibal0420/Speech-Emotion-Recognition-TinyML/blob/main/02_Arduino_Nano_Inference.ipynb))
 
 ## Requirements
 
