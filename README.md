@@ -3,13 +3,13 @@
 Welcome to the repo! This project aims to develop an efficient and compact speech emotion recognition model suitable for TinyML applications. The repo consists of two parts:
 
 1. Develop and convert the LSTM model in TensorFlow to the TensorFlow “Lite” model. ([01_TFLite_Model_Preparation.ipynb](https://github.com/Hannibal0420/Speech-Emotion-Recognition-TinyML/blob/main/01_TFLite_Model_Preparation.ipynb))
-2. Make inferences on the TensorFlow Lite model with the [Arduino Nano 33 BLE](https://docs.arduino.cc/hardware/nano-33-ble) microcontroller. ([02_Arduino_Nano_Inference.ipynb](https://github.com/Hannibal0420/Speech-Emotion-Recognition-TinyML/blob/main/02_Arduino_Nano_Inference.ipynb))
+2. Make inferences on the TensorFlow Lite model with the [Arduino Nano 33 BLE Sense](https://docs.arduino.cc/hardware/nano-33-ble) microcontroller. ([02_Arduino_Nano_Inference.ipynb](https://github.com/Hannibal0420/Speech-Emotion-Recognition-TinyML/blob/main/02_Arduino_Nano_Inference.ipynb))
 
 ## Requirements
 
-**Python Packages** 
+**Software** 
 
-**(with Python** `3.7.10`)
+(with Python `3.7.10`)
 
 - IPython==8.10.0
 - numpy==1.23.5
@@ -19,6 +19,11 @@ Welcome to the repo! This project aims to develop an efficient and compact speec
 - librosa==0.10.0
 - scikit-learn==0.24.1
 - tensorflow==2.11.0
+
+**Hardware** 
+
+- Arduino Nano 33 BLE Sense
+- USB cable
 
 **Installation**
 
@@ -35,6 +40,7 @@ To run this project, please follow these steps:
     ```bash
     pip install -r requirements.txt
     ```
+3. For the hardware set up, follow the instructions provided in the [02_Arduino_Nano_Inference.ipynb](https://github.com/Hannibal0420/Speech-Emotion-Recognition-TinyML/blob/main/02_Arduino_Nano_Inference.ipynb) notebook when needed.
     
 
 ## **Usage**
@@ -67,7 +73,7 @@ The presented TinyML project employs a sequential deep-learning model with two L
 ## **Results**
 
 <p align="center">
-  <img width="800" height="auto" src="images/Training_Acc_Loss.png" alt="Training_Acc_Loss.png">
+  <img width="900" height="auto" src="images/Training_Acc_Loss.png" alt="Training_Acc_Loss.png">
 </p>
 
 The initial model, implemented using TensorFlow, achieved an overall accuracy of 72.88% in recognizing emotions such as Neutral, Happy, Surprise, and Unpleasant. The model demonstrated the best performance in identifying neutral emotions, while the recognition of surprise and happy emotions showed room for improvement (saved as “Speech-Emotion-Recognition-Model.h5”).
