@@ -51,11 +51,11 @@ To use this code, run the main code in the provided notebook. You can customize 
 
 In this project, I use three popular datasets widely used in research for speech emotion recognition tasks: RAVDESS, TESS, and SAVEE datasets.
 
-- [RAVDESS](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)  (Ryerson Audio-Visual Database of Emotional Speech and Song):
+- [RAVDESS](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)  (Ryerson Audio-Visual Database of Emotional Speech and Song):\
 The dataset contains 7356 files with speech and song recordings of 24 professional actors performing in 8 different emotions (neutral, calm, happy, sad, angry, fearful, surprised, and disgusted). It includes both acted and improvised speech and song.
 - [TESS](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess) (Toronto Emotional Speech Set):
 The dataset consists of 2800 files with naturalistic speech recordings performed by two actors (one male, one female), expressing 7 different emotions (anger, disgust, fear, happiness, pleasant surprise, sadness, and neutral).
-- [SAVEE](https://www.kaggle.com/datasets/ejlok1/surrey-audiovisual-expressed-emotion-savee) (Surrey Audio-Visual Expressed Emotion):
+- [SAVEE](https://www.kaggle.com/datasets/ejlok1/surrey-audiovisual-expressed-emotion-savee) (Surrey Audio-Visual Expressed Emotion):<br>
 The dataset contains 480 files of acted speech by 4 male speakers, expressing 4 different emotions (neutral, happy, angry, and sad) with varying levels of intensity.
 
 These datasets provide a diverse range of speech recordings with various emotions, making them suitable for training machine learning models for speech emotion recognition. On the other hand, feature extraction is performed using Mel-frequency cepstral coefficients (MFCC), while dataset augmentation is achieved through a series of audio transformations, including noise addition, time stretching, and pitch shifting. These transformations yield a diversified dataset, enabling the model to generalize to novel data better.
