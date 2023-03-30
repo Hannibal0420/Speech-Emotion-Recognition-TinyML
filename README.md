@@ -1,1 +1,0 @@
-# Speech-Emotion-Recognition-TinyML
