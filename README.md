@@ -51,9 +51,9 @@ To use this code, run the main code in the provided notebook. You can customize 
 
 In this project, I use three popular datasets widely used in research for speech emotion recognition tasks: RAVDESS, TESS, and SAVEE datasets.
 
-- [RAVDESS](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)  (Ryerson Audio-Visual Database of Emotional Speech and Song):\
+- [RAVDESS](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)  (Ryerson Audio-Visual Database of Emotional Speech and Song):<br>
 The dataset contains 7356 files with speech and song recordings of 24 professional actors performing in 8 different emotions (neutral, calm, happy, sad, angry, fearful, surprised, and disgusted). It includes both acted and improvised speech and song.
-- [TESS](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess) (Toronto Emotional Speech Set):
+- [TESS](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess) (Toronto Emotional Speech Set):<br>
 The dataset consists of 2800 files with naturalistic speech recordings performed by two actors (one male, one female), expressing 7 different emotions (anger, disgust, fear, happiness, pleasant surprise, sadness, and neutral).
 - [SAVEE](https://www.kaggle.com/datasets/ejlok1/surrey-audiovisual-expressed-emotion-savee) (Surrey Audio-Visual Expressed Emotion):<br>
 The dataset contains 480 files of acted speech by 4 male speakers, expressing 4 different emotions (neutral, happy, angry, and sad) with varying levels of intensity.
