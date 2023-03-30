@@ -61,9 +61,10 @@ These datasets provide a diverse range of speech recordings with various emotion
 
 The presented TinyML project employs a sequential deep-learning model with two LSTM layers (128 and 64 units) for processing temporal data. The model is followed by a fully connected layer and a dropout layer for regularization. The final dense layer has a softmax activation, catering to a 4-class classification. The model is compiled with an Adam optimizer for efficient gradient-based optimization.
 
-<div align="center">
-![Model_Architecture.png](images/Model_Architecture.png)
-</div>
+<p align="center">
+  <img width="650" height="auto" src="images/Model_Architecture.png" alt="Model_Architecture.png">
+</p>
+
 
 ## **Results**
 
