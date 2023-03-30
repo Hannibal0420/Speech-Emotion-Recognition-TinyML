@@ -53,9 +53,9 @@ In this project, I use three popular datasets widely used in research for speech
 
 These datasets provide a diverse range of speech recordings with various emotions, making them suitable for training machine learning models for speech emotion recognition. On the other hand, feature extraction is performed using Mel-frequency cepstral coefficients (MFCC), while dataset augmentation is achieved through a series of audio transformations, including noise addition, time stretching, and pitch shifting. These transformations yield a diversified dataset, enabling the model to generalize to novel data better.
 
-<div align="center">
-![Signal_Transform.png](images/Signal_Transform.png)
-</div>
+<p align="center">
+  <img width="700" height="auto" src="images/Signal_Transform.png" alt="Signal_Transform.png">
+</p>
 
 ## **Model Description**
 
@@ -68,15 +68,15 @@ The presented TinyML project employs a sequential deep-learning model with two L
 
 ## **Results**
 
-<div align="center">
-![Training_Acc_Loss.png](images/Training_Acc_Loss.png)
-</div>
+<p align="center">
+  <img width="700" height="auto" src="images/Training_Acc_Loss.png" alt="Training_Acc_Loss.png">
+</p>
 
 The initial model, implemented using TensorFlow, achieved an overall accuracy of 72.88% in recognizing emotions such as Neutral, Happy, Surprise, and Unpleasant. The model demonstrated the best performance in identifying neutral emotions, while the recognition of surprise and happy emotions showed room for improvement (saved as “Speech-Emotion-Recognition-Model.h5”).
 
-<div align="center">    
-![Confusion_Heat_Map.png](images/Confusion_Heat_Map.png)
-</div>
+<p align="center">
+  <img width="700" height="auto" src="images/Confusion_Heat_Map.png" alt="Confusion_Heat_Map.png">
+</p>
 
 The original model was converted to TensorFlow Lite format to optimize the deployment model for resource-constrained devices, resulting in a significant size reduction from 1.5 MB to 515 KB (saved as “SER.tflite”). Furthermore, post-training quantization was employed to transform the model's weights from float32 to int8 format, leading to an even smaller model size of 150 KB (saved as “SER_quant.tflite”), which is approximately 3.4 times smaller than the non-quantized TensorFlow Lite model and 10 times smaller than the original model.
 
