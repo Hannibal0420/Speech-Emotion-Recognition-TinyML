@@ -73,7 +73,7 @@ The presented TinyML project employs a sequential deep-learning model with two L
 ## **Results**
 
 <p align="center">
-  <img width="900" height="auto" src="images/Training_Acc_Loss.png" alt="Training_Acc_Loss.png">
+  <img width="950" height="auto" src="images/Training_Acc_Loss.png" alt="Training_Acc_Loss.png">
 </p>
 
 The initial model, implemented using TensorFlow, achieved an overall accuracy of 72.88% in recognizing emotions such as Neutral, Happy, Surprise, and Unpleasant. The model demonstrated the best performance in identifying neutral emotions, while the recognition of surprise and happy emotions showed room for improvement (saved as “Speech-Emotion-Recognition-Model.h5”).
