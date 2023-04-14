@@ -94,7 +94,7 @@ In conclusion, this project highlights the effectiveness of model optimization t
 ## **Future Work**
 
 - Deploy independent inference on the microcontroller
-- Filter the signal input from the microcontroller
+- Refine Data Drift by Filtering the signal input
 - Explore other model architectures for SER
 - Incorporate other audio features
 
